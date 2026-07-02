@@ -1,5 +1,6 @@
 ---
 layout: blog_post
+hidden: true
 title: 'Acknowledgement'
 date: 2026-03-17
 tags:

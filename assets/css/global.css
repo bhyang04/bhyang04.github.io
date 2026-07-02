@@ -42,6 +42,14 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 400;
 }
 
+.availability-note {
+    padding: 0.55rem 0.75rem;
+    border-left: 3px solid #005ecb;
+    background-color: #f2f7fd;
+    color: #222;
+    font-weight: 700;
+}
+
 .navbar {
     background-color: rgba(255, 255, 255, 0.6) !important;
     backdrop-filter: blur(16px);
@@ -90,4 +98,27 @@ div.lazy {
 
 .email-text {
     font-family: Source Code Pro, monospace;
+}
+
+.teaser-preview-button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: zoom-in;
+}
+
+.teaser-preview-close {
+    position: absolute;
+    top: -2.25rem;
+    right: 0;
+    color: #fff;
+    opacity: 0.9;
+    text-shadow: none;
+}
+
+#teaser-preview-image {
+    max-height: 90vh;
+    background: #fff;
 }

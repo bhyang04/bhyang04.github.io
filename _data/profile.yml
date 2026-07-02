@@ -1,18 +1,17 @@
-primary_name: "Your Name"
+primary_name: "Bohan Yang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Bohan Yang"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: B.Sc. @ Beijing Normal-Hong Kong Baptist University
+- name: Computer Science and Technology
 
 
-email: "your@email.com"
+email: "tosakaucw0@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+gscholar: NC_RKFUAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: TosakaUCW
+# twitter: TosakaUCW  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
@@ -22,40 +21,55 @@ twitter: your_twitter_id  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am currently an undergraduate student pursuing a B.Sc. in Computer Science and Technology at
+    <a href="https://bnbu.edu.cn" target="_blank" rel="noopener">Beijing Normal-Hong Kong Baptist University</a>.
+  </p>
+  <p class="availability-note">
+    I am actively looking for an MPhil/PhD position for Fall 2027, as well as research collaboration
+    and internship opportunities.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My current research interests include <strong>large language models</strong>, especially
+    trustworthy and high-efficiency LLMs, and <strong>3D Gaussian Splatting</strong>.
+    I am currently a research assistant at the Binjiang Institute of Zhejiang University,
+    working with
+    <a href="https://scholar.google.com/citations?user=2S80TvwAAAAJ" target="_blank" rel="noopener">Dr. Wenpeng Xing</a>
+    and
+    <a href="https://scholar.google.com/citations?user=TnCrl1cAAAAJ" target="_blank" rel="noopener">Prof. Meng Han</a>.
+  </p>
+  <p>
+    I also have a strong background in competitive programming, with experience in NOIP and ICPC/CCPC.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/avatar.jpeg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo taken on Pingtan Island, Fujian, China.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
+- name: Beijing Normal-Hong Kong Baptist University
+  logo: /assets/images/badges/BNBU.svg
+  position: B.S. in Computer Science and Technology
+  date: Sep. 2023 - present
+- name: Hangzhou Xuejun High School
+  logo: /assets/images/badges/HZXJHS.png
   position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  date: Sep. 2020 - Jul. 2023
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Binjiang Institute of Zhejiang University
+  logo: /assets/images/badges/ZJU.png
+  position: >-
+    Research Assistant with
+    <a href="https://scholar.google.com/citations?user=2S80TvwAAAAJ" target="_blank">Dr. Wenpeng Xing</a>
+    and
+    <a href="https://scholar.google.com/citations?user=TnCrl1cAAAAJ" target="_blank">Prof. Meng Han</a>
+  date: Jan. 2026 - Jun. 2026
+  description: Trustworthy LLMs, 3D Gaussian Splatting, and vision-language models.
 
 awards:
-- name: Award Name 2
+- name: Bronze Medal (51/149), ICPC Asia-East Regional Contest (Hong Kong)
   date: 2024
-- name: Award Name 1 
+- name: Second Prize (1278/5261, China), NOIP
   date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Codeforces Master, peak rating 2183
+  date:

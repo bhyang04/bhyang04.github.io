@@ -7,4 +7,7 @@ _site/
 vendor/
 Gemfile.lock
 
+.spec-workflow/
+Resume.pdf
+
 .DS_Store

@@ -39,4 +39,19 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
+
+    $('#teaser-preview-modal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var src = button.data('teaser-src');
+        var title = button.data('teaser-title');
+        var modal = $(this);
+
+        modal.find('#teaser-preview-image')
+            .attr('src', src)
+            .attr('alt', title);
+    });
+
+    $('#teaser-preview-modal').on('hidden.bs.modal', function () {
+        $(this).find('#teaser-preview-image').attr('src', '');
+    });
 })
