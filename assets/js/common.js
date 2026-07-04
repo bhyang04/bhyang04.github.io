@@ -40,10 +40,17 @@ $(function () {
         $grid.masonry('layout');
     });
 
+    $('.showcase-card img').each(function () {
+        var image = $(this);
+        image.attr('data-toggle', 'modal');
+        image.attr('data-target', '#teaser-preview-modal');
+        image.addClass('showcase-preview-image');
+    });
+
     $('#teaser-preview-modal').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget);
-        var src = button.data('teaser-src');
-        var title = button.data('teaser-title');
+        var trigger = $(event.relatedTarget);
+        var src = trigger.data('teaser-src') || trigger.attr('data-src') || trigger.attr('src');
+        var title = trigger.data('teaser-title') || trigger.attr('alt');
         var modal = $(this);
 
         modal.find('#teaser-preview-image')

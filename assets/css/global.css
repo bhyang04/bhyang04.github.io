@@ -118,6 +118,10 @@ div.lazy {
     text-shadow: none;
 }
 
+.showcase-preview-image {
+    cursor: zoom-in;
+}
+
 #teaser-preview-image {
     max-height: 90vh;
     background: #fff;

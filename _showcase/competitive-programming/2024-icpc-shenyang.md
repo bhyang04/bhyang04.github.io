@@ -1,5 +1,5 @@
 ---
-show: true
+show: false
 group: Competitive Programming
 width: 4
 date: 2026-03-02 00:01:00 +0800

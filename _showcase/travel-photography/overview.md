@@ -5,31 +5,31 @@ width: 6
 date: 2025-01-01 00:01:00 +0800
 height: 360px
 images:
-- src: /assets/images/showcase/travel/pingtan1.jpeg
+- src: /assets/images/showcase/travel/Pingtan Island1.png
   title: Pingtan Island
   desc: Fujian, China.
-- src: /assets/images/showcase/travel/pingtan2.jpeg
+- src: /assets/images/showcase/travel/Pingtan Island2.png
   title: Pingtan Island
   desc: Fujian, China.
-- src: /assets/images/showcase/travel/westlake1.jpeg
+- src: /assets/images/showcase/travel/westlake1.png
   title: West Lake
   desc: Hangzhou, China.
-- src: /assets/images/showcase/travel/westlake2.jpeg
+- src: /assets/images/showcase/travel/westlake2.png
   title: West Lake
   desc: Hangzhou, China.
-- src: /assets/images/showcase/travel/changzhou1.jpeg
+- src: /assets/images/showcase/travel/Cheung Chau1.png
   title: Changzhou
   desc: Jiangsu, China.
-- src: /assets/images/showcase/travel/changzhou2.jpeg
+- src: /assets/images/showcase/travel/Cheung Chau2.png
   title: Changzhou
   desc: Jiangsu, China.
-- src: /assets/images/showcase/travel/dalian1.jpeg
+- src: /assets/images/showcase/travel/dalian1.png
   title: Dalian
   desc: Liaoning, China.
-- src: /assets/images/showcase/travel/dalian2.jpeg
+- src: /assets/images/showcase/travel/dalian2.png
   title: Dalian
   desc: Liaoning, China.
-- src: /assets/images/showcase/travel/dalian3.jpeg
+- src: /assets/images/showcase/travel/dalian3.png
   title: Dalian
   desc: Liaoning, China.
 ---

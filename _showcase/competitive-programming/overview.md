@@ -5,13 +5,13 @@ width: 6
 date: 2026-01-01 00:01:00 +0800
 height: 360px
 images:
-- src: /assets/images/showcase/competitions/24_icpc_hk.jpeg
+- src: /assets/images/showcase/competitions/24_icpc_hk.png
   title: ICPC Asia-East Regional Contest, Hong Kong
   desc: Bronze Medal, 2024.
 - src: /assets/images/showcase/competitions/24_icpc_sy.jpeg
   title: ICPC Regional Contest
   desc: Selected contest moment.
-- src: /assets/images/showcase/competitions/25_ccpc_cq.jpeg
+- src: /assets/images/showcase/competitions/25_ccpc_cq.png
   title: CCPC
   desc: Selected contest moment.
 ---
