@@ -1,35 +1,51 @@
 @charset "utf-8";
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
+    color: #111;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
     padding-top: 5.0rem;
+}
+
+.text-muted {
+    color: #555 !important;
+}
+
+.small,
+small {
+    font-size: 0.875em;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
 }
 
 .card {
-    border-radius: 0.8rem!important;
+    border-radius: 0.5rem!important;
 }
 
 .card-img-overlay {
-    border-radius: 0.8rem!important;
+    border-radius: 0.5rem!important;
 }
 
 .rounded-xl {
-    border-radius: 0.8rem!important;
+    border-radius: 0.5rem!important;
 }
 
 .rounded-xl-bottom {
-    border-bottom-right-radius: 0.8rem !important;
-    border-bottom-left-radius: 0.8rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
 }
 
 .rounded-xl-top {
-    border-top-left-radius: 0.8rem !important;
-    border-top-right-radius: 0.8rem !important;
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
 }
 
 
@@ -39,7 +55,7 @@ h1, h2, h3, h4, h5, h6,
 
 .text-profile-bio {
     /* font-family: "Raleway"; */
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .availability-note {
@@ -74,6 +90,48 @@ h1, h2, h3, h4, h5, h6,
 
 .abstract-body {
     min-height: 100px;
+}
+
+.publication-item h5 {
+    font-size: 1.125rem;
+    margin-bottom: 0.35rem !important;
+    font-weight: 500 !important;
+    line-height: 1.35;
+}
+
+.publication-item .small {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.publication-item p + p {
+    margin-top: 0.2rem !important;
+}
+
+.publication-item .abstract-links {
+    margin-top: 0.35rem !important;
+}
+
+.news-list {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.news-title {
+    min-width: 0;
+}
+
+@media (max-width: 575.98px) {
+    .news-item {
+        flex-direction: column;
+    }
+
+    .news-date {
+        margin-top: 0.35rem;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
 }
 
 img.lazy {

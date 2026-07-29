@@ -13,4 +13,6 @@ authors:
   - Zaifeng Yang
   - Changting Lin
   - Meng Han#
+links:
+  Paper: https://arxiv.org/abs/2508.10029
 ---

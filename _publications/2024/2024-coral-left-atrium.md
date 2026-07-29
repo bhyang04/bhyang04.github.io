@@ -5,6 +5,7 @@ selected: false
 cover: /assets/images/covers/corn.png
 pub: "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
 pub_date: "2024"
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
 abstract: >-
   This work leverages CORAL-correlation consistency for semi-supervised left atrium MRI segmentation.
 authors:

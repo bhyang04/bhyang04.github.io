@@ -9,7 +9,7 @@ positions:
 
 email: "tosakaucw0@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: NC_RKFUAAAAJ  # This is an example, replace it with your own Google Scholar ID
+gscholar: NC_RKFUAAAAJ
 github: TosakaUCW
 # twitter: TosakaUCW  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -52,7 +52,7 @@ education:
   date: Sep. 2023 - present
 - name: Hangzhou Xuejun High School
   logo: /assets/images/badges/HZXJHS.png
-  position: B.S. in Computer Science
+  position: High School Diploma
   date: Sep. 2020 - Jul. 2023
 
 experience:

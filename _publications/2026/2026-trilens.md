@@ -4,6 +4,7 @@ date: 2026-05-28 00:01:00 +0800
 cover: /assets/images/covers/trilens.png
 selected: true
 pub: "Under review"
+pub_last: ' <span class="badge badge-pill badge-publication badge-info">First Author</span>'
 abstract: >-
   TriLens introduces per-layer logit-lens entropy as a white-box signal for hallucination detection in large language models.
 authors:

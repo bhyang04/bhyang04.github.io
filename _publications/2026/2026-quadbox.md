@@ -5,6 +5,7 @@ selected: true
 cover: /assets/images/covers/quadbox.png
 pub: "IEEE International Conference on Image Processing (ICIP)"
 pub_date: "2026"
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
 abstract: >-
   QuadBox accelerates 3D Gaussian Splatting using geometry-aware boxes for more efficient scene representation and rendering.
 authors:

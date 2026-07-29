@@ -4,11 +4,12 @@ date: 2026-01-28 00:01:00 +0800
 selected: false
 cover: /assets/images/covers/color.png
 pub: "Under review"
+pub_last: ' <span class="badge badge-pill badge-publication badge-info">Co-First Author</span>'
 abstract: >-
   COLOR explores coarse-to-fine outlier detection with subspace purification for open-vocabulary semantic segmentation.
 authors:
-  - Yijun Gong
-  - Bohan Yang
+  - Yijun Gong*
+  - Bohan Yang*
   - Ziyue Qiao#
   - Xiao Luo#
 ---
