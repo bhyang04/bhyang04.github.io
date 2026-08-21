@@ -1,13 +1,13 @@
 ---
 title: "QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes"
 date: 2026-05-01 00:01:00 +0800
-selected: true
+selected: false
 cover: /assets/images/covers/quadbox.png
 pub: "IEEE International Conference on Image Processing (ICIP)"
 pub_date: "2026"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
+pub_pre: '<span class="badge badge-pill badge-publication badge-success">ICIP''26</span> '
 abstract: >-
-  QuadBox accelerates 3D Gaussian Splatting using geometry-aware boxes for more efficient scene representation and rendering.
+  Wraps projected Gaussians with four tight tile-aligned boxes and traverses their intersections in one pass using simple interval tests. By removing irrelevant Gaussian-tile checks, the method accelerates 3DGS rendering by 1.85x on public datasets.
 authors:
   - Xinze Li
   - Bohan Yang

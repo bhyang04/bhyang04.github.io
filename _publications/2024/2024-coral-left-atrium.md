@@ -5,9 +5,9 @@ selected: false
 cover: /assets/images/covers/corn.png
 pub: "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
 pub_date: "2024"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
+pub_pre: '<span class="badge badge-pill badge-publication badge-success">BIBM''24</span> '
 abstract: >-
-  This work leverages CORAL-correlation consistency for semi-supervised left atrium MRI segmentation.
+  Aligns second-order feature correlations between labeled and unlabeled MRI data, while a confidence-filtered dynamic feature pool reduces sample-selection bias. The method captures both global atrial structure and local attachment details, outperforming prior semi-supervised approaches on the Left Atrium dataset.
 authors:
   - Xinze Li
   - Runlin Huang

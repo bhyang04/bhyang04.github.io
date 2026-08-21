@@ -4,7 +4,7 @@
 
 /* Blog content styling */
 .blog-content {
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .blog-content h1,
@@ -104,11 +104,6 @@
 }
 
 @media (max-width: 768px) {
-    .blog-main .display-4 {
-        font-size: 2.5rem;
-        line-height: 1.15;
-    }
-
     .blog-content .col-md-8,
     .blog-content .col-md-4 {
         padding: 0;
@@ -176,10 +171,10 @@
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
-/* Keep prose lines short enough to scan comfortably. */
+/* Blog layout — content preserves original width, TOC uses remaining space */
 .blog-layout-wrapper {
     display: flex;
     justify-content: center;
@@ -188,13 +183,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .blog-main {
-    flex: 0 1 800px;
+    flex: 0 1 950px;
     min-width: 0;
 }
 
 .blog-toc-sidebar {
     flex: 0 0 auto;
-    width: clamp(180px, 16vw, 280px);
+    width: clamp(160px, 18vw, 360px);
     display: none;
 }
 
@@ -219,7 +214,7 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #5f6872;
+    color: #aaa;
     margin-bottom: 0.75rem;
 }
 
@@ -235,9 +230,9 @@ h1, h2, h3, h4, h5, h6,
 
 .blog-toc-list a {
     display: block;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    color: #5f6872;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #999;
     text-decoration: none;
     padding: 0.15rem 0;
     transition: color 0.2s ease;

@@ -18,7 +18,7 @@ navbar_title: Home
 
 {% if site.data.display.homepage.show_selected_publications %}
     {% assign visible_pubs = site.publications | where_exp: "item", "item.hidden != true" %}
-    {% assign pubs = visible_pubs | sort: "date" | reverse | where: "selected", true %}
+    {% assign pubs = visible_pubs | where: "selected", true | sort: "selected_order" %}
     {%
         include widgets/publication_card.html
         publications=pubs

@@ -4,9 +4,9 @@ date: 2026-01-28 00:01:00 +0800
 selected: false
 cover: /assets/images/covers/color.png
 pub: "Under review"
-pub_last: ' <span class="badge badge-pill badge-publication badge-info">Co-First Author</span>'
+pub_pre: '<span class="badge badge-pill badge-publication badge-info">Co-First Author</span> '
 abstract: >-
-  COLOR explores coarse-to-fine outlier detection with subspace purification for open-vocabulary semantic segmentation.
+  First purifies open-vocabulary features into a cleaner semantic subspace, then applies coarse-to-fine outlier scoring at complementary granularities. The design aims to preserve known-class segmentation while separating unfamiliar regions that conventional confidence scores can overlook.
 authors:
   - Yijun Gong*
   - Bohan Yang*

@@ -3,10 +3,12 @@ title: "TriLens: Per-Layer Logit-Lens Entropy for White-Box Hallucination Detect
 date: 2026-05-28 00:01:00 +0800
 cover: /assets/images/covers/trilens.png
 selected: true
-pub: "Under review"
-pub_last: ' <span class="badge badge-pill badge-publication badge-info">First Author</span>'
+selected_order: 1
+publication_order: 1
+pub: "Findings of EMNLP 2026"
+pub_pre: '<span class="badge badge-pill badge-publication badge-success">EMNLP''26</span> <span class="badge badge-pill badge-publication badge-info">First Author</span> '
 abstract: >-
-  TriLens introduces per-layer logit-lens entropy as a white-box signal for hallucination detection in large language models.
+  Reads MHSA, FFN, and residual-stream outputs at every layer through the model's own logit lens, then compresses their entropy trajectories into a 3L-dimensional representation. The three module-wise signals provide complementary evidence for hallucination detection without storing hidden states or sampling multiple generations.
 authors:
   - Bohan Yang
   - Yijun Gong
