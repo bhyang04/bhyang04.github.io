@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Bohan Yang"
 
 positions:
-- name: B.Sc. @ Beijing Normal-Hong Kong Baptist University
+- name: B.Sc. (Honors) @ Beijing Normal-Hong Kong Baptist University
 - name: Computer Science and Technology
 
 
@@ -21,17 +21,16 @@ github: TosakaUCW
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently an undergraduate student pursuing a B.Sc. in Computer Science and Technology at
+    I am currently an undergraduate student pursuing a B.Sc. (Honors) in Computer Science and Technology at
     <a href="https://bnbu.edu.cn" target="_blank" rel="noopener">Beijing Normal-Hong Kong Baptist University</a>.
   </p>
   <p class="availability-note">
-    I am actively looking for an MPhil/PhD position for Fall 2027, as well as research collaboration
-    and internship opportunities.
+    I am actively looking for an PhD position for Fall 2027
   </p>
   <p>
     My current research interests include <strong>large language models</strong>, especially
     trustworthy and high-efficiency LLMs, and <strong>3D Gaussian Splatting</strong>.
-    I am currently a research assistant at the Binjiang Institute of Zhejiang University,
+    I am currently a research intern at the Binjiang Institute of Zhejiang University,
     working with
     <a href="https://scholar.google.com/citations?user=2S80TvwAAAAJ" target="_blank" rel="noopener">Dr. Wenpeng Xing</a>
     and
@@ -48,18 +47,20 @@ portrait_caption: >-
 education:
 - name: Beijing Normal-Hong Kong Baptist University
   logo: /assets/images/badges/BNBU.svg
-  position: B.S. in Computer Science and Technology
+  dept: B.Sc. (Honors) in Computer Science and Technology
+  position: "GPA: 3.65/4.00"
   date: Sep. 2023 - present
 - name: Hangzhou Xuejun High School
   logo: /assets/images/badges/HZXJHS.png
-  position: High School Diploma
-  date: Sep. 2020 - Jul. 2023
+  dept: High School Diploma
+  position: Olympiad in Informatics Training
+  date: Sep. 2020 - Jun. 2023
 
 experience:
 - name: Binjiang Institute of Zhejiang University
   logo: /assets/images/badges/ZJU.png
   position: >-
-    Research Assistant with
+    Research Intern with
     <a href="https://scholar.google.com/citations?user=2S80TvwAAAAJ" target="_blank">Dr. Wenpeng Xing</a>
     and
     <a href="https://scholar.google.com/citations?user=TnCrl1cAAAAJ" target="_blank">Prof. Meng Han</a>
