@@ -5,7 +5,8 @@ cover: /assets/images/covers/trilens.png
 selected: true
 selected_order: 1
 publication_order: 1
-pub: "EMNLP 2026, Findings"
+pub: "Findings of EMNLP 2026"
+pub_post: ", pp. 38536–38553"
 abstract: >-
   Reads MHSA, FFN, and residual-stream outputs at every layer through the model's own logit lens, then compresses their entropy trajectories into a 3L-dimensional representation. The three module-wise signals provide complementary evidence for hallucination detection without storing hidden states or sampling multiple generations.
 authors:
@@ -16,6 +17,7 @@ authors:
   - Wenpeng Xing#
   - Meng Han#
 links:
-  Paper: https://arxiv.org/abs/2606.01033
+  Paper: https://aclanthology.org/2026.findings-emnlp.1803/
+  arXiv: https://arxiv.org/abs/2606.01033
   Project: https://tosakaucw.github.io/TriLens/
 ---

@@ -5,7 +5,8 @@ selected: true
 selected_order: 2
 publication_order: 2
 cover: /assets/images/covers/decnet.png
-pub: "EMNLP 2026, Main"
+pub: "EMNLP 2026 (Main Conference)"
+pub_post: ", pp. 37858–37873"
 abstract: >-
   Calibrates VLM predictions against distribution-aware class prototypes and aggregates fine-grained voting evidence across the decision space. The two-stage design targets subtle misclassifications that may remain hidden behind a single confident output.
 authors:
@@ -18,4 +19,6 @@ authors:
   - Meng Han
   - Ziyue Qiao#
   - Xiao Luo
+links:
+  Paper: https://aclanthology.org/2026.emnlp-main.1665/
 ---
