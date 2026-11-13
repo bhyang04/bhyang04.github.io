@@ -1,0 +1,15 @@
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.showcase-card { overflow: hidden; }
+.showcase-card img { display: block; width: 100%; height: auto; }
+.showcase-card .p-3 { padding: 1rem; }
+@media (max-width: 767.98px) {
+  .showcase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 575.98px) {
+  .showcase-grid { grid-template-columns: minmax(0, 1fr); }
+}

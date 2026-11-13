@@ -1,0 +1,36 @@
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    {% assign scrollable = false %}
+    {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+      {% assign scrollable = true %}
+    {% endif %}
+    <div
+      class="news-list{% if scrollable %} news-scroll{% endif %}"
+      {% if scrollable %}
+        tabindex="0" role="region" aria-label="News"
+      {% endif %}
+    >
+      {% assign news = site.news | reverse %}
+      {% if include.limit and page.announcements.limit and scrollable == false %}
+        {% assign news_limit = page.announcements.limit %}
+      {% else %}
+        {% assign news_limit = news_size %}
+      {% endif %}
+      {% for item in news limit: news_limit %}
+        <div class="news-row{% if item.highlight %} news-highlight{% endif %}">
+          <strong class="news-date">{{ item.date | date: '%b %Y' }}</strong>
+          <div class="news-content">
+            {% if item.inline %}
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+            {% else %}
+              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

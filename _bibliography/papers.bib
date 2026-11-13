@@ -1,0 +1,84 @@
+---
+---
+
+@misc{yang2026trilens,
+  abbr = {EMNLP Findings},
+  title = {TriLens: Per-Layer Logit-Lens Entropy for White-Box Hallucination Detection},
+  author = {Yang, Bohan and Gong, Yijun and Zhang, Zhi and Zhang, Ge and Xing†, Wenpeng and Han, Meng},
+  year = {2026},
+  preview = {trilens.png},
+  abstract = {Reads MHSA, FFN, and residual-stream outputs at every layer through the model's own logit lens, then compresses their entropy trajectories into a 3L-dimensional representation. The three module-wise signals provide complementary evidence for hallucination detection without storing hidden states or sampling multiple generations.},
+  additional_info = {EMNLP 2026, Findings},
+  hide_year = {true},
+  selected = {true},
+  annotation = {† Corresponding author},
+  html = {https://aclanthology.org/2026.findings-emnlp.1803/},
+  arxiv = {2606.01033},
+  website = {https://tosakaucw.github.io/TriLens/}
+}
+
+@misc{yang2026decent,
+  abbr = {EMNLP 2026},
+  title = {DECENT: Distribution-aware Prototypical Calibration with Fine-grained Voting for VLM Misclassification Detection},
+  author = {Gong, Yijun and Yang, Bohan and Zhang, Zhi and Qin, Yupeng and Xing, Wenpeng and Lin, Changting and Han, Meng and Qiao†, Ziyue and Luo, Xiao},
+  year = {2026},
+  preview = {decnet.png},
+  abstract = {Calibrates VLM predictions against distribution-aware class prototypes and aggregates fine-grained voting evidence across the decision space. The two-stage design targets subtle misclassifications that may remain hidden behind a single confident output.},
+  additional_info = {EMNLP 2026},
+  hide_year = {true},
+  selected = {true},
+  annotation = {† Corresponding author},
+  html = {https://aclanthology.org/2026.emnlp-main.1665/}
+}
+
+@misc{yang2026rethinkingtesttimescaling,
+  abbr = {Under review},
+  title = {Rethinking Test-Time Scaling: From Answer Discovery to Candidate Selectability},
+  author = {Gong, Yijun and Yang, Bohan and Zhang, Zhi and Qiao†, Ziyue and Luo†, Xiao},
+  year = {2026},
+  preview = {tts-bench.png},
+  abstract = {Builds a unified generation-and-selection benchmark spanning three open-weight models, five datasets, seven generation policies, seven label-free selectors, and four candidate budgets. Larger pools improve oracle coverage far more than returned-answer accuracy, revealing candidate selectability as the main bottleneck.},
+  additional_info = {Under review},
+  selected = {false},
+  annotation = {† Corresponding author}
+}
+
+@misc{yang2026quadbox,
+  abbr = {ICIP 2026},
+  title = {QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes},
+  author = {Li, Xinze and Yang, Bohan and Chen, Pengxu and Wang, Yiyuan and Luo, Hongcheng and Cheng†, Wentao and Su†, Weifeng},
+  year = {2026},
+  preview = {quadbox.png},
+  abstract = {Wraps projected Gaussians with four tight tile-aligned boxes and traverses their intersections in one pass using simple interval tests. By removing irrelevant Gaussian-tile checks, the method accelerates 3DGS rendering by 1.85x on public datasets.},
+  additional_info = {IEEE International Conference on Image Processing (ICIP)},
+  selected = {false},
+  annotation = {† Corresponding author},
+  html = {https://arxiv.org/abs/2605.04844},
+  code = {https://github.com/Powertony102/QuadBox}
+}
+
+@misc{yang2026latentfusionjailbreak,
+  abbr = {TNNLS · Revision},
+  title = {Latent Fusion Jailbreak: Blending Harmful and Harmless Representations to Elicit Unsafe LLM Outputs},
+  author = {Xing, Wenpeng and Yang, Bohan and Li, Mohan and Hu, Chunqiang and Xu, Haitao and Zhang, Ningyu and Lin, Bo and Han†, Meng},
+  year = {2026},
+  preview = {lfj.png},
+  abstract = {Pairs harmful queries with structurally similar benign counterparts and uses refusal-loss gradients to choose layers and token positions for hidden-state interpolation. Across five open-weight models and four safety benchmarks, it reaches 94.01% average attack success; latent-space adversarial training reduces attack success by over 80%.},
+  additional_info = {Minor revision at IEEE TNNLS},
+  selected = {true},
+  note = {Student First Author.},
+  annotation = {† Corresponding author},
+  html = {https://arxiv.org/abs/2508.10029}
+}
+
+@misc{yang2026color,
+  abbr = {Under review},
+  title = {COLOR: Coarse-to-fine Outlier Detection with Subspace Purification for Open-Vocabulary Semantic Segmentation},
+  author = {Gong, Yijun and Yang, Bohan and Qiao†, Ziyue and Luo†, Xiao},
+  year = {2026},
+  preview = {color.png},
+  abstract = {First purifies open-vocabulary features into a cleaner semantic subspace, then applies coarse-to-fine outlier scoring at complementary granularities. The design aims to preserve known-class segmentation while separating unfamiliar regions that conventional confidence scores can overlook.},
+  additional_info = {Under review},
+  selected = {false},
+  annotation = {† Corresponding author}
+}

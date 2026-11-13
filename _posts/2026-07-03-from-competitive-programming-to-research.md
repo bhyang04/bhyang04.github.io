@@ -1,11 +1,12 @@
 ---
-layout: blog_post
-title: 'From Competitive Programming to Research'
+layout: post
+title: From Competitive Programming to Research
 date: 2026-07-03
 tags:
-  - Research
-  - Competitive Programming
-  - Reflection
+- Research
+- Competitive Programming
+- Reflection
+related_posts: false
 ---
 
 Before I started doing research, competitive programming was the main way I trained myself to think about algorithms, systems, and implementation. My experience in NOIP, ICPC/CCPC, and Codeforces shaped how I approach technical problems today.
